@@ -5,7 +5,7 @@ It's just tutorial with React - Interview test - Ghady Alhamad
 Implemented in 2021.
 
 
-![Todo1](../Tutorials/samples/1.PNG?raw=true)
+![Todo1](https://raw.githubusercontent.com/GhadyAlhamad/Tutorials/main/samples/1.PNG)
 
 
 ![Todo2](../Tutorials/samples/4.PNG?raw=true)
