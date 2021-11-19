@@ -4,7 +4,26 @@
 It's just tutorial with React - Interview test - Ghady Alhamad  
 Implemented in 2021.
 
-<b>mplement all the following: </b>
+
+![Todo1](../Tutorials/samples/1.PNG?raw=true)
+
+
+![Todo2](../Tutorials/samples/4.PNG?raw=true)
+
+
+![Todo3](../Tutorials/samples/3.PNG?raw=true)
+
+
+![Todo4](../Tutorials/samples/5.PNG?raw=true)
+
+
+![Todo5](../Tutorials/samples/9.PNG?raw=true)
+
+
+![Todo6](../Tutorials/samples/10.PNG?raw=true)
+
+
+<b>Implement all the following: </b>
 <ul>
 <li>list all to-do</li>
 <li>view to-do info dialog</li>
