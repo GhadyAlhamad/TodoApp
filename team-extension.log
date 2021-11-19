@@ -1,0 +1,161 @@
+2021-11-10T18:43:24.669Z - info:   [28064] *** FOLDER: d:\TrainingCourses\React\TodoTest\todo-v1 ***
+2021-11-10T18:43:24.670Z - info:   [28064] AzureReposVSCode/1.161.1 (VSCode 1.62.1; Windows_NT 10.0.19042; Node 14.16.0)
+2021-11-10T18:43:24.670Z - debug:  [28064] Looking for an External Context at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-10T18:43:24.671Z - debug:  [28064] No External Context at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-10T18:43:24.673Z - debug:  [28064] Looking for TFVC repository at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-10T18:43:24.673Z - debug:  [28064] TFVC Creating Tfvc object with localPath='undefined'
+2021-11-10T18:43:24.674Z - debug:  [28064] Using TFS proxy: 
+2021-11-10T18:43:24.674Z - debug:  [28064] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2021-11-10T18:43:24.675Z - debug:  [28064] TFVC Repository created with repositoryRootFolder='d:\TrainingCourses\React\TodoTest\todo-v1'
+2021-11-10T18:43:24.676Z - debug:  [28064] TFVC Repository.CheckVersion
+2021-11-10T18:43:24.677Z - debug:  [28064] TFVC: tf add -noprompt -?
+2021-11-10T18:43:24.685Z - debug:  [28064] TFVC: spawned new process (duration: 7ms)
+2021-11-10T18:43:24.696Z - debug:  [28064] TFVC: spawned new process (duration: 10ms)
+2021-11-10T18:43:25.358Z - debug:  [28064] TFVC: add exit code: 0 (duration: 681ms)
+2021-11-10T18:43:25.359Z - debug:  [28064] TFVC Minimum required version: 14.102.0
+2021-11-10T18:43:25.359Z - debug:  [28064] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2021-11-10T18:43:25.359Z - debug:  [28064] TFVC Repository.FindWorkspace with localPath='d:\TrainingCourses\React\TodoTest\todo-v1'
+2021-11-10T18:43:25.359Z - debug:  [28064] TFVC: tf workfold -noprompt d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-10T18:43:25.364Z - debug:  [28064] TFVC: spawned new process (duration: 4ms)
+2021-11-10T18:43:25.963Z - debug:  [28064] TFVC: workfold exit code: 100 (duration: 604ms)
+2021-11-10T18:43:25.964Z - debug:  [28064] TFVC errors (via stderr): There is no working folder mapping for d:\TrainingCourses\React\TodoTest\todo-v1.
+
+2021-11-10T18:43:25.964Z - error:  [28064] Execution of the TFVC command line failed unexpectedly.
+2021-11-10T19:52:08.439Z - info:   [29048] *** FOLDER: d:\TrainingCourses\React\TodoTest\todo-v1 ***
+2021-11-10T19:52:08.440Z - info:   [29048] AzureReposVSCode/1.161.1 (VSCode 1.62.1; Windows_NT 10.0.19042; Node 14.16.0)
+2021-11-10T19:52:08.441Z - debug:  [29048] Looking for an External Context at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-10T19:52:08.442Z - debug:  [29048] No External Context at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-10T19:52:08.446Z - debug:  [29048] Looking for TFVC repository at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-10T19:52:08.447Z - debug:  [29048] TFVC Creating Tfvc object with localPath='undefined'
+2021-11-10T19:52:08.448Z - debug:  [29048] Using TFS proxy: 
+2021-11-10T19:52:08.449Z - debug:  [29048] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2021-11-10T19:52:08.450Z - debug:  [29048] TFVC Repository created with repositoryRootFolder='d:\TrainingCourses\React\TodoTest\todo-v1'
+2021-11-10T19:52:08.452Z - debug:  [29048] TFVC Repository.CheckVersion
+2021-11-10T19:52:08.452Z - debug:  [29048] TFVC: tf add -noprompt -?
+2021-11-10T19:52:08.466Z - debug:  [29048] TFVC: spawned new process (duration: 13ms)
+2021-11-10T19:52:08.486Z - debug:  [29048] TFVC: spawned new process (duration: 18ms)
+2021-11-10T19:52:09.354Z - debug:  [29048] TFVC: add exit code: 0 (duration: 902ms)
+2021-11-10T19:52:09.355Z - debug:  [29048] TFVC Minimum required version: 14.102.0
+2021-11-10T19:52:09.355Z - debug:  [29048] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2021-11-10T19:52:09.356Z - debug:  [29048] TFVC Repository.FindWorkspace with localPath='d:\TrainingCourses\React\TodoTest\todo-v1'
+2021-11-10T19:52:09.356Z - debug:  [29048] TFVC: tf workfold -noprompt d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-10T19:52:09.370Z - debug:  [29048] TFVC: spawned new process (duration: 13ms)
+2021-11-10T19:52:10.306Z - debug:  [29048] TFVC: workfold exit code: 100 (duration: 950ms)
+2021-11-10T19:52:10.308Z - debug:  [29048] TFVC errors (via stderr): There is no working folder mapping for d:\TrainingCourses\React\TodoTest\todo-v1.
+
+2021-11-10T19:52:10.308Z - error:  [29048] Execution of the TFVC command line failed unexpectedly.
+2021-11-14T17:21:43.265Z - info:   [18728] *** FOLDER: d:\TrainingCourses\React\TodoTest\todo-v1 ***
+2021-11-14T17:21:43.265Z - info:   [18728] AzureReposVSCode/1.161.1 (VSCode 1.62.1; Windows_NT 10.0.19042; Node 14.16.0)
+2021-11-14T17:21:43.265Z - debug:  [18728] Looking for an External Context at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-14T17:21:43.265Z - debug:  [18728] No External Context at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-14T17:21:43.267Z - debug:  [18728] Looking for TFVC repository at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-14T17:21:43.267Z - debug:  [18728] TFVC Creating Tfvc object with localPath='undefined'
+2021-11-14T17:21:43.267Z - debug:  [18728] Using TFS proxy: 
+2021-11-14T17:21:43.267Z - debug:  [18728] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2021-11-14T17:21:43.268Z - debug:  [18728] TFVC Repository created with repositoryRootFolder='d:\TrainingCourses\React\TodoTest\todo-v1'
+2021-11-14T17:21:43.269Z - debug:  [18728] TFVC Repository.CheckVersion
+2021-11-14T17:21:43.269Z - debug:  [18728] TFVC: tf add -noprompt -?
+2021-11-14T17:21:43.286Z - debug:  [18728] TFVC: spawned new process (duration: 17ms)
+2021-11-14T17:21:43.292Z - debug:  [18728] TFVC: spawned new process (duration: 5ms)
+2021-11-14T17:21:44.278Z - debug:  [18728] TFVC: add exit code: 0 (duration: 1009ms)
+2021-11-14T17:21:44.279Z - debug:  [18728] TFVC Minimum required version: 14.102.0
+2021-11-14T17:21:44.279Z - debug:  [18728] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2021-11-14T17:21:44.280Z - debug:  [18728] TFVC Repository.FindWorkspace with localPath='d:\TrainingCourses\React\TodoTest\todo-v1'
+2021-11-14T17:21:44.280Z - debug:  [18728] TFVC: tf workfold -noprompt d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-14T17:21:44.291Z - debug:  [18728] TFVC: spawned new process (duration: 9ms)
+2021-11-14T17:21:45.721Z - debug:  [18728] TFVC: workfold exit code: 100 (duration: 1440ms)
+2021-11-14T17:21:45.722Z - debug:  [18728] TFVC errors (via stderr): There is no working folder mapping for d:\TrainingCourses\React\TodoTest\todo-v1.
+
+2021-11-14T17:21:45.722Z - error:  [18728] Execution of the TFVC command line failed unexpectedly.
+2021-11-15T16:27:08.325Z - info:   [19984] *** FOLDER: d:\TrainingCourses\React\TodoTest\todo-v1 ***
+2021-11-15T16:27:08.326Z - info:   [19984] AzureReposVSCode/1.161.1 (VSCode 1.62.1; Windows_NT 10.0.19042; Node 14.16.0)
+2021-11-15T16:27:08.326Z - debug:  [19984] Looking for an External Context at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-15T16:27:08.326Z - debug:  [19984] No External Context at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-15T16:27:08.328Z - debug:  [19984] Looking for TFVC repository at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-15T16:27:08.328Z - debug:  [19984] TFVC Creating Tfvc object with localPath='undefined'
+2021-11-15T16:27:08.329Z - debug:  [19984] Using TFS proxy: 
+2021-11-15T16:27:08.329Z - debug:  [19984] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2021-11-15T16:27:08.329Z - debug:  [19984] TFVC Repository created with repositoryRootFolder='d:\TrainingCourses\React\TodoTest\todo-v1'
+2021-11-15T16:27:08.330Z - debug:  [19984] TFVC Repository.CheckVersion
+2021-11-15T16:27:08.330Z - debug:  [19984] TFVC: tf add -noprompt -?
+2021-11-15T16:27:08.348Z - debug:  [19984] TFVC: spawned new process (duration: 17ms)
+2021-11-15T16:27:08.360Z - debug:  [19984] TFVC: spawned new process (duration: 10ms)
+2021-11-15T16:27:09.236Z - debug:  [19984] TFVC: add exit code: 0 (duration: 905ms)
+2021-11-15T16:27:09.237Z - debug:  [19984] TFVC Minimum required version: 14.102.0
+2021-11-15T16:27:09.237Z - debug:  [19984] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2021-11-15T16:27:09.238Z - debug:  [19984] TFVC Repository.FindWorkspace with localPath='d:\TrainingCourses\React\TodoTest\todo-v1'
+2021-11-15T16:27:09.238Z - debug:  [19984] TFVC: tf workfold -noprompt d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-15T16:27:09.247Z - debug:  [19984] TFVC: spawned new process (duration: 8ms)
+2021-11-15T16:27:11.301Z - debug:  [19984] TFVC: workfold exit code: 100 (duration: 2063ms)
+2021-11-15T16:27:11.303Z - debug:  [19984] TFVC errors (via stderr): There is no working folder mapping for d:\TrainingCourses\React\TodoTest\todo-v1.
+
+2021-11-15T16:27:11.304Z - error:  [19984] Execution of the TFVC command line failed unexpectedly.
+2021-11-16T15:47:07.643Z - info:   [17428] *** FOLDER: d:\TrainingCourses\React\TodoTest\todo-v1 ***
+2021-11-16T15:47:07.643Z - info:   [17428] AzureReposVSCode/1.161.1 (VSCode 1.62.1; Windows_NT 10.0.19042; Node 14.16.0)
+2021-11-16T15:47:07.643Z - debug:  [17428] Looking for an External Context at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-16T15:47:07.643Z - debug:  [17428] No External Context at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-16T15:47:07.644Z - debug:  [17428] Looking for TFVC repository at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-16T15:47:07.645Z - debug:  [17428] TFVC Creating Tfvc object with localPath='undefined'
+2021-11-16T15:47:07.645Z - debug:  [17428] Using TFS proxy: 
+2021-11-16T15:47:07.645Z - debug:  [17428] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2021-11-16T15:47:07.646Z - debug:  [17428] TFVC Repository created with repositoryRootFolder='d:\TrainingCourses\React\TodoTest\todo-v1'
+2021-11-16T15:47:07.646Z - debug:  [17428] TFVC Repository.CheckVersion
+2021-11-16T15:47:07.646Z - debug:  [17428] TFVC: tf add -noprompt -?
+2021-11-16T15:47:07.660Z - debug:  [17428] TFVC: spawned new process (duration: 13ms)
+2021-11-16T15:47:07.669Z - debug:  [17428] TFVC: spawned new process (duration: 8ms)
+2021-11-16T15:47:08.929Z - debug:  [17428] TFVC: add exit code: 0 (duration: 1282ms)
+2021-11-16T15:47:08.930Z - debug:  [17428] TFVC Minimum required version: 14.102.0
+2021-11-16T15:47:08.930Z - debug:  [17428] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2021-11-16T15:47:08.931Z - debug:  [17428] TFVC Repository.FindWorkspace with localPath='d:\TrainingCourses\React\TodoTest\todo-v1'
+2021-11-16T15:47:08.931Z - debug:  [17428] TFVC: tf workfold -noprompt d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-16T15:47:08.947Z - debug:  [17428] TFVC: spawned new process (duration: 13ms)
+2021-11-16T15:47:10.434Z - debug:  [17428] TFVC: workfold exit code: 100 (duration: 1502ms)
+2021-11-16T15:47:10.436Z - debug:  [17428] TFVC errors (via stderr): There is no working folder mapping for d:\TrainingCourses\React\TodoTest\todo-v1.
+
+2021-11-16T15:47:10.436Z - error:  [17428] Execution of the TFVC command line failed unexpectedly.
+2021-11-18T17:30:56.764Z - info:   [10908] *** FOLDER: d:\TrainingCourses\React\TodoTest\todo-v1 ***
+2021-11-18T17:30:56.765Z - info:   [10908] AzureReposVSCode/1.161.1 (VSCode 1.62.1; Windows_NT 10.0.19042; Node 14.16.0)
+2021-11-18T17:30:56.765Z - debug:  [10908] Looking for an External Context at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-18T17:30:56.765Z - debug:  [10908] No External Context at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-18T17:30:56.766Z - debug:  [10908] Looking for TFVC repository at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-18T17:30:56.767Z - debug:  [10908] TFVC Creating Tfvc object with localPath='undefined'
+2021-11-18T17:30:56.767Z - debug:  [10908] Using TFS proxy: 
+2021-11-18T17:30:56.767Z - debug:  [10908] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2021-11-18T17:30:56.768Z - debug:  [10908] TFVC Repository created with repositoryRootFolder='d:\TrainingCourses\React\TodoTest\todo-v1'
+2021-11-18T17:30:56.769Z - debug:  [10908] TFVC Repository.CheckVersion
+2021-11-18T17:30:56.769Z - debug:  [10908] TFVC: tf add -noprompt -?
+2021-11-18T17:30:56.784Z - debug:  [10908] TFVC: spawned new process (duration: 14ms)
+2021-11-18T17:30:56.793Z - debug:  [10908] TFVC: spawned new process (duration: 8ms)
+2021-11-18T17:30:58.241Z - debug:  [10908] TFVC: add exit code: 0 (duration: 1472ms)
+2021-11-18T17:30:58.243Z - debug:  [10908] TFVC Minimum required version: 14.102.0
+2021-11-18T17:30:58.243Z - debug:  [10908] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2021-11-18T17:30:58.244Z - debug:  [10908] TFVC Repository.FindWorkspace with localPath='d:\TrainingCourses\React\TodoTest\todo-v1'
+2021-11-18T17:30:58.245Z - debug:  [10908] TFVC: tf workfold -noprompt d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-18T17:30:58.254Z - debug:  [10908] TFVC: spawned new process (duration: 8ms)
+2021-11-18T17:31:00.238Z - debug:  [10908] TFVC: workfold exit code: 100 (duration: 1992ms)
+2021-11-18T17:31:00.239Z - debug:  [10908] TFVC errors (via stderr): There is no working folder mapping for d:\TrainingCourses\React\TodoTest\todo-v1.
+
+2021-11-18T17:31:00.239Z - error:  [10908] Execution of the TFVC command line failed unexpectedly.
+2021-11-18T23:14:17.430Z - info:   [25348] *** FOLDER: d:\TrainingCourses\React\TodoTest\todo-v1 ***
+2021-11-18T23:14:17.431Z - info:   [25348] AzureReposVSCode/1.161.1 (VSCode 1.62.1; Windows_NT 10.0.19042; Node 14.16.0)
+2021-11-18T23:14:17.431Z - debug:  [25348] Looking for an External Context at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-18T23:14:17.431Z - debug:  [25348] No External Context at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-18T23:14:17.433Z - debug:  [25348] Looking for TFVC repository at d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-18T23:14:17.433Z - debug:  [25348] TFVC Creating Tfvc object with localPath='undefined'
+2021-11-18T23:14:17.434Z - debug:  [25348] Using TFS proxy: 
+2021-11-18T23:14:17.434Z - debug:  [25348] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2021-11-18T23:14:17.435Z - debug:  [25348] TFVC Repository created with repositoryRootFolder='d:\TrainingCourses\React\TodoTest\todo-v1'
+2021-11-18T23:14:17.436Z - debug:  [25348] TFVC Repository.CheckVersion
+2021-11-18T23:14:17.436Z - debug:  [25348] TFVC: tf add -noprompt -?
+2021-11-18T23:14:17.455Z - debug:  [25348] TFVC: spawned new process (duration: 18ms)
+2021-11-18T23:14:17.467Z - debug:  [25348] TFVC: spawned new process (duration: 11ms)
+2021-11-18T23:14:18.525Z - debug:  [25348] TFVC: add exit code: 0 (duration: 1088ms)
+2021-11-18T23:14:18.525Z - debug:  [25348] TFVC Minimum required version: 14.102.0
+2021-11-18T23:14:18.525Z - debug:  [25348] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2021-11-18T23:14:18.525Z - debug:  [25348] TFVC Repository.FindWorkspace with localPath='d:\TrainingCourses\React\TodoTest\todo-v1'
+2021-11-18T23:14:18.525Z - debug:  [25348] TFVC: tf workfold -noprompt d:\TrainingCourses\React\TodoTest\todo-v1
+2021-11-18T23:14:18.531Z - debug:  [25348] TFVC: spawned new process (duration: 5ms)
+2021-11-18T23:14:19.884Z - debug:  [25348] TFVC: workfold exit code: 100 (duration: 1358ms)
+2021-11-18T23:14:19.886Z - debug:  [25348] TFVC errors (via stderr): There is no working folder mapping for d:\TrainingCourses\React\TodoTest\todo-v1.
+
+2021-11-18T23:14:19.886Z - error:  [25348] Execution of the TFVC command line failed unexpectedly.
