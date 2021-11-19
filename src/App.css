@@ -653,19 +653,12 @@ h1 {
     padding-bottom: 10px;
 }
 
-.weather-next5days-min {font-weight: bold;
+.weather-next5days-min {
+    font-weight: bold;
     color: lightyellow;
     padding-left: 5px;
     font-size: small;
   
-<<<<<<< HEAD
-=======
-}
-.weather-next5days-max {
-    color: #fff; 
-    font-size: small;
-  
->>>>>>> 5eed33c00dbfb48eb3f92e6354f4d5ae878494a5
 }
 .weather-next5days-max {
     color: #fff; 
