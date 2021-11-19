@@ -8,19 +8,19 @@ Implemented in 2021.
 ![Todo1](https://raw.githubusercontent.com/GhadyAlhamad/Tutorials/main/samples/1.PNG)
 
 
-![Todo2](../Tutorials/samples/4.PNG?raw=true)
+![Todo2](https://raw.githubusercontent.com/GhadyAlhamad/Tutorials/main/samples/4.PNG?raw=true)
 
 
-![Todo3](../Tutorials/samples/3.PNG?raw=true)
+![Todo3](https://raw.githubusercontent.com/GhadyAlhamad/Tutorials/main/samples/3.PNG?raw=true)
 
 
-![Todo4](../Tutorials/samples/5.PNG?raw=true)
+![Todo4](https://raw.githubusercontent.com/GhadyAlhamad/Tutorials/main/samples/5.PNG?raw=true)
 
 
-![Todo5](../Tutorials/samples/9.PNG?raw=true)
+![Todo5](https://raw.githubusercontent.com/GhadyAlhamad/Tutorials/main/samples/9.PNG?raw=true)
 
 
-![Todo6](../Tutorials/samples/10.PNG?raw=true)
+![Todo6](https://raw.githubusercontent.com/GhadyAlhamad/Tutorials/main/samples/10.PNG?raw=true)
 
 
 <b>Implement all the following: </b>
