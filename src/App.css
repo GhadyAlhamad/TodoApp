@@ -129,6 +129,7 @@ h1 {
         #02AABD,
         #00CDAC
     );      
+<<<<<<< HEAD
 }
 
 .todo-row-color:nth-child(7n + 2)  { 
@@ -338,6 +339,217 @@ h1 {
     text-align: center !important; 
 }
 
+=======
+}
+
+.todo-row-color:nth-child(7n + 2)  { 
+    background: linear-gradient(
+        90deg,
+        #2E3192,
+        #1BFFFF
+    );      
+}
+ 
+.todo-row-color:nth-child(7n + 3)  { 
+    background: linear-gradient(
+        90deg,
+        #D4145A,
+        #FBB03B
+    );      
+}
+
+.todo-row-color:nth-child(7n + 4)  { 
+    background: linear-gradient(
+        90deg,
+        #009245,
+        #FCEE21
+    );      
+}
+
+.todo-row-color:nth-child(7n + 5)  { 
+    background: linear-gradient(
+        90deg,
+        #662D8C,
+        #ED1E79
+    );      
+}
+.todo-row-color:nth-child(7n + 6)  { 
+    background: linear-gradient(
+        90deg,
+        #EE9CA7,
+        #FFDDE1
+    );      
+}
+.todo-row-color-archived { 
+    background: linear-gradient(
+        90deg,
+        #868F96,
+        #596164
+    );      
+}
+
+.icons {
+    display: flex;
+    align-items: center; 
+    cursor: pointer;
+}
+
+.edit-icon, .archive-icon, .delete-icon { 
+    font-size: 15px !important;
+    color: #fff;
+} 
+ 
+.edit-icon.checked, .archive-icon.checked, .delete-icon.checked { 
+    color: lightgray !important;
+}
+ 
+.hide {
+    display: none;
+}
+
+/* Todo list  */
+.todo-row-title {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+.todo-row-title.archived {
+    padding-bottom: 10px;
+}
+
+.todo-row-checkbox {
+    color: #fff !important; 
+    padding-left: 0px !important; 
+
+}
+.todo-row-checkbox.checked  { 
+    padding-left: 0px !important; 
+
+}
+.todo-row-titlelabel  {
+    margin-top: 10px; 
+}
+
+.todo-row-titlelabel.checked { 
+    text-decoration: line-through; 
+}
+
+.checked {  
+    color: lightgray !important;
+}
+
+.archived {
+    color: silver !important;
+
+}
+
+/* Todo form components */
+.todo-label { 
+    font-size: 14px;
+    font-weight: bold;
+    color: #5e6c84; 
+    margin-bottom: 3px; 
+}
+
+#modal-modal-title {
+    color: gray; 
+    border-bottom: 1px solid silver !important;
+    margin-bottom: 15px;
+}
+
+.todo-modal-label { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Todo view dialog components */
+ 
+.todo-dialog-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray; 
+    border-bottom: 1px solid silver !important;
+    margin-bottom: 15px;
+}
+
+.todo-view-label { 
+    font-size: 14px;
+    font-weight: bold;
+    color: #5e6c84; 
+    margin-bottom: 3px; 
+    padding-right: 50px; 
+}
+
+
+/* Title components */
+
+
+.todo-title {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #fff; 
+  
+    border-bottom: 1px solid white; 
+}
+
+.todo-title-label {
+    height: 100%;
+    vertical-align: bottom !important; 
+    line-height: normal;
+    padding-bottom: 15px;
+}
+ 
+.todo-title-select-box {
+    color: #fff !important;
+    min-width: 100px; 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.todo-title-select  { 
+    color: #fff !important;
+    
+}
+
+.todo-title-select::before, .todo-title-select::after {
+    border-color: white !important; 
+    color: #fff !important;
+}
+
+.css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon { 
+    color: #fff !important;
+}
+
+/* Weather Component  */
+ 
+.weather-summary { 
+    cursor: pointer;
+    font-size: small;
+    width: 50%;   
+    margin-right: 10px;
+}
+.weather-summary.weather-details-shown { 
+    cursor: initial;
+    font-size: small;
+    width: 50%;   
+    margin-right: 10px;
+}
+
+.weather-sperator {
+    border-left: solid 1px #70757a;
+    margin: 0 4px;
+}
+
+.weather-location {
+    text-align: center !important; 
+}
+
+>>>>>>> 5eed33c00dbfb48eb3f92e6354f4d5ae878494a5
 
 .weather-row {
     color: white;
@@ -446,6 +658,14 @@ h1 {
     padding-left: 5px;
     font-size: small;
   
+<<<<<<< HEAD
+=======
+}
+.weather-next5days-max {
+    color: #fff; 
+    font-size: small;
+  
+>>>>>>> 5eed33c00dbfb48eb3f92e6354f4d5ae878494a5
 }
 .weather-next5days-max {
     color: #fff; 
