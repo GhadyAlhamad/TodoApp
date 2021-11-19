@@ -1,0 +1,454 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Arial, sane-serif';
+}
+
+body {
+    background: linear-gradient(
+        90deg,
+        rgb(250, 249, 249) 0%,
+        rgb(224, 224, 224) 100%
+    );
+}
+
+.todo-app {
+    display: flex; 
+    flex-direction: column;
+    justify-content: start;
+    width: 620px;
+    min-height: 600px;
+    background: #283366;
+    border: 5px outset #313d7a;
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+}
+.todo-app.light {
+
+    border: 5px outset rgb(118, 182, 207);
+    background: skyblue;
+}
+
+.todo-menu {
+    text-align: left;
+    padding: 15px;
+}
+
+.todo-addnew-button {
+    border: 1px solid white !important;
+    color: #fff !important;
+    font-size: 10px !important;
+}
+
+.todo-addnew-icon { 
+    color: #fff !important;
+    font-size: 14px !important;
+}
+
+.todo-list-icon { 
+    padding-right: 1px !important;
+    color: #fff !important;
+    font-size: 18px !important;
+}
+
+h1 {
+    margin: 32px 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.complete {
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+.todo-form {
+    margin-bottom: 32px;
+}
+
+.todo-input { 
+    background: transparent;
+    color: #fff;
+    width: 100% !important;
+}
+
+
+.todo-input::placeholder { 
+    color: #e2e2e2 !important;
+}
+
+.todo-button {
+    padding: 12px !important;
+    border: none !important;
+    border-radius: 0 4px 4px 0 !important;
+    cursor: pointer;
+    outline: none !important;
+    background: linear-gradient(
+        90deg,
+        rgba(93, 12, 255, 1) 0%,
+        rgba(155, 0, 250, 1) 100%
+    );     
+    color: #fff !important;
+    text-transform: capitalize;
+}
+   
+
+.todo-container { 
+   display: flex;
+   flex-direction: row;
+   position: relative; 
+}
+ 
+.todo-row   {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff; 
+    cursor: pointer; 
+    padding: 5px 20px;
+    padding-left: 15px;  
+    margin-top: 8px;
+    border-radius: 20px;
+    width: 100%;
+}
+ 
+.todo-row-color { 
+    background: linear-gradient(
+        90deg,
+        #614385,
+        #516395
+    );  
+}
+ 
+.todo-row-color:nth-child(7n + 1) { 
+    background: linear-gradient(
+        90deg,
+        #02AABD,
+        #00CDAC
+    );      
+}
+
+.todo-row-color:nth-child(7n + 2)  { 
+    background: linear-gradient(
+        90deg,
+        #2E3192,
+        #1BFFFF
+    );      
+}
+ 
+.todo-row-color:nth-child(7n + 3)  { 
+    background: linear-gradient(
+        90deg,
+        #D4145A,
+        #FBB03B
+    );      
+}
+
+.todo-row-color:nth-child(7n + 4)  { 
+    background: linear-gradient(
+        90deg,
+        #009245,
+        #FCEE21
+    );      
+}
+
+.todo-row-color:nth-child(7n + 5)  { 
+    background: linear-gradient(
+        90deg,
+        #662D8C,
+        #ED1E79
+    );      
+}
+.todo-row-color:nth-child(7n + 6)  { 
+    background: linear-gradient(
+        90deg,
+        #EE9CA7,
+        #FFDDE1
+    );      
+}
+.todo-row-color-archived { 
+    background: linear-gradient(
+        90deg,
+        #868F96,
+        #596164
+    );      
+}
+
+.icons {
+    display: flex;
+    align-items: center; 
+    cursor: pointer;
+}
+
+.edit-icon, .archive-icon, .delete-icon { 
+    font-size: 15px !important;
+    color: #fff;
+} 
+ 
+.edit-icon.checked, .archive-icon.checked, .delete-icon.checked { 
+    color: lightgray !important;
+}
+ 
+.hide {
+    display: none;
+}
+
+/* Todo list  */
+.todo-row-title {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+.todo-row-title.archived {
+    padding-bottom: 10px;
+}
+
+.todo-row-checkbox {
+    color: #fff !important; 
+    padding-left: 0px !important; 
+
+}
+.todo-row-checkbox.checked  { 
+    padding-left: 0px !important; 
+
+}
+.todo-row-titlelabel  {
+    margin-top: 10px; 
+}
+
+.todo-row-titlelabel.checked { 
+    text-decoration: line-through; 
+}
+
+.checked {  
+    color: lightgray !important;
+}
+
+.archived {
+    color: silver !important;
+
+}
+
+/* Todo form components */
+.todo-label { 
+    font-size: 14px;
+    font-weight: bold;
+    color: #5e6c84; 
+    margin-bottom: 3px; 
+}
+
+#modal-modal-title {
+    color: gray; 
+    border-bottom: 1px solid silver !important;
+    margin-bottom: 15px;
+}
+
+.todo-modal-label { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Todo view dialog components */
+ 
+.todo-dialog-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray; 
+    border-bottom: 1px solid silver !important;
+    margin-bottom: 15px;
+}
+
+.todo-view-label { 
+    font-size: 14px;
+    font-weight: bold;
+    color: #5e6c84; 
+    margin-bottom: 3px; 
+    padding-right: 50px; 
+}
+
+
+/* Title components */
+
+
+.todo-title {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #fff; 
+  
+    border-bottom: 1px solid white; 
+}
+
+.todo-title-label {
+    height: 100%;
+    vertical-align: bottom !important; 
+    line-height: normal;
+    padding-bottom: 15px;
+}
+ 
+.todo-title-select-box {
+    color: #fff !important;
+    min-width: 100px; 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.todo-title-select  { 
+    color: #fff !important;
+    
+}
+
+.todo-title-select::before, .todo-title-select::after {
+    border-color: white !important; 
+    color: #fff !important;
+}
+
+.css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon { 
+    color: #fff !important;
+}
+
+/* Weather Component  */
+ 
+.weather-summary { 
+    cursor: pointer;
+    font-size: small;
+    width: 50%;   
+    margin-right: 10px;
+}
+.weather-summary.weather-details-shown { 
+    cursor: initial;
+    font-size: small;
+    width: 50%;   
+    margin-right: 10px;
+}
+
+.weather-sperator {
+    border-left: solid 1px #70757a;
+    margin: 0 4px;
+}
+
+.weather-location {
+    text-align: center !important; 
+}
+
+
+.weather-row {
+    color: white;
+    margin: 2px auto;
+}
+
+.weather-row.city { 
+    font-size: 17px;
+    font-weight: bolder;
+}
+.today, .desc {
+    color: lightyellow;
+
+}
+.weather-row.temprature {
+   font-size: 36px;
+   margin-right: 10px;
+   padding-top:  14px;
+
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: row; 
+
+}
+
+.weather-icon {
+    width: 75px;
+    border-radius: 50%; 
+    margin-top: 20px; 
+    margin-right: 10px;
+  }
+
+ 
+/* Weather Details Component  */
+.weather-header { 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    text-align: right;
+}
+.weather-header-icon { 
+    color: white !important;
+}  
+ 
+.weather-details {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   /* background-color: white; */ 
+    border-radius: 10px;
+  }
+  
+.weather-details-container {
+    width: 95%;
+    height: 100%;
+    text-align: center;
+  }
+
+.weather-details-separator {
+    border-top: 1px whitesmoke solid;
+    width: 95%;
+    margin: auto 10px;
+
+}  
+
+.weather-details-label {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    font-size: large;
+    margin: 20px 15px;
+    color: #fff;
+    text-decoration:underline; 
+}
+
+.weather-next5days   {  
+    margin: auto 17px; 
+}
+.weather-next5days > div  { 
+    display: inline-block; 
+    color: #fff;
+    margin: auto 15px;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.weather-next5days > div:hover {
+    background-color: #303d81 !important; 
+}
+
+.weather-next5days.light > div:hover {
+    background-color: rgb(118, 182, 207) !important; 
+}
+
+.weather-next5days-day {
+    padding-bottom: 10px;
+}
+
+.weather-next5days-min {font-weight: bold;
+    color: lightyellow;
+    padding-left: 5px;
+    font-size: small;
+  
+}
+.weather-next5days-max {
+    color: #fff; 
+    font-size: small;
+  
+}
