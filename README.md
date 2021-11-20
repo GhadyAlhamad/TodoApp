@@ -1,25 +1,18 @@
 
-<h1>To-do and Weather tutrial App </h1> 
+<h1>To-do and Weather tutorial App </h1> 
 
 It's just tutorial with React - Interview test - Ghady Alhamad  
 Implemented in 2021.
 
 
 ![Todo1](https://raw.githubusercontent.com/GhadyAlhamad/Tutorials/main/samples/1.PNG)
-
-
-![Todo2](https://raw.githubusercontent.com/GhadyAlhamad/Tutorials/main/samples/4.PNG?raw=true)
-
-
+  
 ![Todo3](https://raw.githubusercontent.com/GhadyAlhamad/Tutorials/main/samples/3.PNG?raw=true)
-
-
+ 
 ![Todo4](https://raw.githubusercontent.com/GhadyAlhamad/Tutorials/main/samples/5.PNG?raw=true)
-
-
+ 
 ![Todo5](https://raw.githubusercontent.com/GhadyAlhamad/Tutorials/main/samples/9.PNG?raw=true)
-
-
+ 
 ![Todo6](https://raw.githubusercontent.com/GhadyAlhamad/Tutorials/main/samples/10.PNG?raw=true)
 
 
