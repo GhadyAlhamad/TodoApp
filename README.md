@@ -2,7 +2,7 @@
 <h1>To-do and Weather tutorial app </h1> 
 
 It's just tutorial with React - Interview test - Ghady Alhamad  
-Implemented in 2021.
+Implemented in 2021, Nov.
 
 
 ![Todo1](https://raw.githubusercontent.com/GhadyAlhamad/Tutorials/main/samples/1.PNG)
