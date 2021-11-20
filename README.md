@@ -1,5 +1,5 @@
 
-<h1>To-do and Weather tutorial App </h1> 
+<h1>To-do and Weather tutorial app </h1> 
 
 It's just tutorial with React - Interview test - Ghady Alhamad  
 Implemented in 2021.
